@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Desenvolver uma aplicação chamada "GitFav", para guardar os usuários favoritos do GitHub e essa aplicação através da api do Git retorna alguns dados dos usuários favoritos como: Nome, Quantidades de Repositórios e Followers.
 
-- [Visite o projeto]()
+- [Visite o projeto](https://wilkasantos.github.io/explorer-stage6-gitFav/)
 
 <br>
 ## 🔖 Layout
