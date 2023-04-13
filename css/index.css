@@ -1,0 +1,172 @@
+.hero{
+  width: 112rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8.7rem;
+  
+  font-family: var(--ff-page);
+  color: var(--c-primary);
+  
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+  .title{
+    display: flex;
+    align-items: center;
+
+    font-size: 3.3rem;
+    line-height: 2.5rem;
+  }
+
+    .title img{
+      width: 2rem;
+      height: 1.9rem;
+    }
+  
+  .wrappped{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+  }
+
+    .wrappped input{
+      width: 46.2rem;
+      height: 4.8rem;
+      padding: 1.6rem;
+
+      font-family: var(--ff-page);
+      background: var(--bg-input);
+
+      border: none;
+      border-radius: .5rem;
+      color: var(--c-primary);
+    }
+
+      .wrappped input::placeholder{
+        color: var(--c-placeholder);
+      }
+
+    .favButton{
+      width: 17rem;
+      height: 4.8rem;
+
+      display: flex;
+      align-items: center;
+      padding: 1.2rem 3.2rem;
+      gap: .8rem;
+
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      text-transform: uppercase;
+
+      color: var(--c-primary);
+      background: var(--bg-button-fav);
+      border-radius: .5rem;
+      border: none;
+
+    }
+
+      .favButton img{
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+
+      .favButton:hover{
+        background: var(--bg-button-favHover);
+      }
+
+.container-table{
+  width: 100%;
+  height: 50rem;
+  border: 1px solid var(--c-line);
+}
+
+table{
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid var(--c-line);
+
+  font-size: 2rem;
+  line-height: 160%;
+  font-family: var(--ff-page);
+}
+
+  .top th{
+      background: var(--bg-table);
+      padding: 1rem 2.4rem 1rem 0;
+      height: 6.4rem;
+  }
+
+
+    .top td:nth-child(1){
+      width: 50.4rem;
+    }
+
+  .bottom .special{
+    width: 100%;
+    height: 10rem;
+    border: 1px solid var(--c-line);
+  }
+  .bottom tr{
+    height: 11rem;
+  }
+    .bottom tr td{
+      border-bottom: 1px solid var(--c-line);
+      padding: 1rem 2.4rem 1rem 4rem
+    }
+
+    .bottom tr:nth-child(even){
+      background: var(--bg-input);
+    }
+
+    .bottom td:nth-child(1){
+      width: 35rem;
+    }
+
+    .bottom td a{
+      text-decoration: none;
+      color: var(--c-primary);
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+    }
+
+    .bottom td a img{
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+    }
+
+    .removeButton{
+      background: none;
+      border: none;
+      cursor: pointer;
+
+      font-family: var(--ff-page);
+      font-size: 2rem;
+      line-height: 160%;
+      color: var(--c-remove);
+    }
+
+@media(max-width: 1368px){
+  .hero{
+    width: 100rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8.7rem;
+  }
+  .container-table{
+    height: 40rem;
+  }
+}
